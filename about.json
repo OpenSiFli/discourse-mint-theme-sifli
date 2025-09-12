@@ -13,14 +13,14 @@
       "hover": "e3efec"
     },
     "mint-dark": {
-      "primary": "e0e0e0",
-      "secondary": "2d2d2d",
-      "tertiary": "4F8A7C",
-      "header_background": "202020",
-      "header_primary": "e0e0e0",
-      "highlight": "b2b235",
-      "selected": "1c302b",
-      "hover": "1c302b"
+      "primary": "f0f0f0",
+      "secondary": "2b2b2b",
+      "tertiary": "52b0e1",
+      "header_background": "1e1e1e",
+      "header_primary": "e8e8e8",
+      "highlight": "facf5a",
+      "selected": "253842",
+      "hover": "324b57"
     }
   },
   "components": ["https://github.com/discourse/discourse-search-banner.git"],
