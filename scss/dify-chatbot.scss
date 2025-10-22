@@ -1,0 +1,67 @@
+#dify-chatbot-bubble-button {
+  position: fixed !important;
+  bottom: clamp(1.5rem, 5vh, 3rem) !important;
+  right: clamp(1.25rem, 4vw, 3rem) !important;
+  width: 62px !important;
+  height: 62px !important;
+  border-radius: 24px !important;
+  background: linear-gradient(140deg, #2563eb 0%, #38bdf8 100%) !important;
+  box-shadow:
+    0 24px 60px -30px rgba(37, 99, 235, 0.85),
+    0 16px 30px -18px rgba(15, 23, 42, 0.45) !important;
+  border: 1px solid rgba(248, 250, 252, 0.4) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  z-index: 1050 !important;
+}
+
+#dify-chatbot-bubble-button:hover {
+  transform: translateY(-2px) scale(1.02) !important;
+  box-shadow:
+    0 28px 65px -28px rgba(37, 99, 235, 0.9),
+    0 20px 30px -18px rgba(14, 165, 233, 0.5) !important;
+}
+
+#dify-chatbot-bubble-button svg,
+#dify-chatbot-bubble-button img {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+#dify-chatbot-bubble-window {
+  width: min(420px, 94vw) !important;
+  height: min(620px, 75vh) !important;
+  bottom: calc(clamp(1.5rem, 5vh, 3rem) + 74px) !important;
+  right: clamp(1.25rem, 4vw, 3rem) !important;
+  border-radius: 28px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(148, 163, 184, 0.35) !important;
+  box-shadow:
+    0 42px 88px -40px rgba(15, 23, 42, 0.85),
+    0 32px 52px -36px rgba(37, 99, 235, 0.6) !important;
+  backdrop-filter: blur(18px) !important;
+}
+
+#dify-chatbot-bubble-window iframe {
+  border-radius: 28px !important;
+}
+
+
+@media (max-width: 768px) {
+  #dify-chatbot-bubble-button {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 20px !important;
+    bottom: 1.25rem !important;
+    right: 1.25rem !important;
+  }
+
+  #dify-chatbot-bubble-window {
+    width: 92vw !important;
+    height: 68vh !important;
+    right: 1rem !important;
+    bottom: calc(56px + 2.25rem) !important;
+  }
+}
