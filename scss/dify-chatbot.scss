@@ -65,3 +65,26 @@
     bottom: calc(56px + 2.25rem) !important;
   }
 }
+
+html.dark-theme {
+  #dify-chatbot-bubble-button {
+    background: linear-gradient(150deg, #60a5fa 0%, #38bdf8 100%) !important;
+    border-color: rgba(148, 197, 255, 0.35) !important;
+    box-shadow:
+      0 24px 60px -32px rgba(37, 99, 235, 0.9),
+      0 18px 34px -22px rgba(14, 165, 233, 0.65) !important;
+  }
+
+  #dify-chatbot-bubble-button:hover {
+    box-shadow:
+      0 28px 68px -30px rgba(37, 99, 235, 0.95),
+      0 22px 36px -20px rgba(56, 189, 248, 0.7) !important;
+  }
+
+  #dify-chatbot-bubble-window {
+    border-color: rgba(96, 165, 250, 0.35) !important;
+    box-shadow:
+      0 40px 90px -38px rgba(8, 47, 73, 0.8),
+      0 36px 58px -34px rgba(37, 99, 235, 0.7) !important;
+  }
+}
